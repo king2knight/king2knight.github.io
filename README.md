@@ -1,5 +1,20 @@
 # Museum Site Test Build
 
+## ToDo List
+- [ ] Revise About Page
+- [ ] Clean up charts on main pages 
+- [ ] Remove Button from homepage
+- [ ] Update pictures
+- [ ] Standardize color scheme
+- [ ] Clean up graph pages text
+- [ ] Dynamically link graphs to info pages
+- [ ] Background images for landing pages?
+- [ ] Test all links
+
+
+
+
+
 ## [Based on Start Bootstrap - Half Slider](https://startbootstrap.com/template-overviews/half-slider/)
 
 [Half Slider](http://startbootstrap.com/template-overviews/half-slider/) is an HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features a full width, half page image slider header with captions.
