@@ -1,13 +1,15 @@
 # Museum Site Test Build
 
 ## ToDo List
-- [ ] Revise About Page
-- [ ] Clean up charts on main pages 
-- [ ] Remove Button from homepage
+- [x] Revise About Page
+- [x] Clean up charts on main pages 
+- [x] Remove/Add Button from homepage
 - [ ] Update pictures
-- [ ] Standardize color scheme
-- [ ] Clean up graph pages text
-- [ ] Dynamically link graphs to info pages
+- [x] Standardize color scheme
+- [x] Clean up graph pages text - boys
+- [ ] Clean up graph pages text - girls
+- [x] Dynamically link graphs to info pages - boys
+- [ ] Dynamically link graphs to info pages - girls
 - [ ] Background images for landing pages?
 - [ ] Test all links
 
