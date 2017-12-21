@@ -7,11 +7,12 @@
 - [ ] Update pictures
 - [x] Standardize color scheme
 - [x] Clean up graph pages text - boys
-- [ ] Clean up graph pages text - girls
+- [x] Clean up graph pages text - girls
 - [x] Dynamically link graphs to info pages - boys
-- [ ] Dynamically link graphs to info pages - girls
+- [x] Dynamically link graphs to info pages - girls
 - [ ] Background images for landing pages?
 - [ ] Test all links
+- [ ] Copyright and other footers
 
 
 
