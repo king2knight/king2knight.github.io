@@ -10,9 +10,9 @@
 - [x] Clean up graph pages text - girls
 - [x] Dynamically link graphs to info pages - boys
 - [x] Dynamically link graphs to info pages - girls
-- [ ] Background images for landing pages?
+- [x] Background images for landing pages?
 - [ ] Test all links
-- [ ] Copyright and other footers
+- [X] Copyright and other footers
 
 
 
