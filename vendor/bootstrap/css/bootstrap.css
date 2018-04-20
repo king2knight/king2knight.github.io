@@ -8410,6 +8410,16 @@ a.text-dark:focus, a.text-dark:hover {
 	background-position: 0 50;
 	background-image: url('../../../images/Bullpup logo.png'), linear-gradient(#d10000, #6b0000);
 }
+@media (max-width: 768px) {
+    .logo-sm {
+	float: left;
+    width: 100px;
+    height: 100px;
+	padding-top: 50px;
+    visibility: hidden;
+    }
+    
+}
 
 .logo {
 	float: left;
