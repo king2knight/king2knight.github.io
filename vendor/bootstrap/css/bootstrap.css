@@ -901,6 +901,7 @@ pre code {
   margin-left: 91.666667%;
 }
 
+
 @media (min-width: 576px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
@@ -7195,6 +7196,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 @media (min-width: 576px) {
+    
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -7445,6 +7447,10 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 @media (min-width: 768px) {
+    
+  .ml-md-custom{
+    margin-left: 260px;
+  }
   .m-md-0 {
     margin: 0 !important;
   }
