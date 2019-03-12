@@ -2334,14 +2334,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #d10000;
+  border-color: #000000;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #6b0000;
+  border-color: #FFE5E5;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2877,7 +2877,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-link {
-  font-weight: 400;
+  font-weight: 600;
   color: #007bff;
   background-color: transparent;
 }
@@ -6514,6 +6514,9 @@ button.bg-dark:focus {
 .embed-responsive-1by1::before {
   padding-top: 100%;
 }
+.embed-responsive-custom::before {
+  padding-top: 35%;
+}
 
 .flex-row {
   -ms-flex-direction: row !important;
@@ -9026,5 +9029,40 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+
+ .pupBackground {
+	background-image: url('../../../images/Bullpup logo.png');
+	background-position: 5% 10%;
+	background-repeat: no-repeat;
+ }
+
+ .grad1 {
+    height: 200px;
+    background-color: #cccccc;
+    background-image: linear-gradient(#d10000, #6b0000);
+ }
+
+ @media (max-width: 768px) {
+    .logo-sm {
+	float: left;
+    width: 100px;
+    height: 100px;
+	padding-top: 50px;
+    visibility: hidden;
+    }
+    
+ }
+
+ .logo {
+	float: left;
+    width: 100px;
+    height: 100px;
+	padding-top: 50px;
+ }
+ .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+ }
 }
 /*# sourceMappingURL=bootstrap.css.map */
