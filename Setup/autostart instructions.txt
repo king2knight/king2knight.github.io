@@ -1,0 +1,40 @@
+/home/pi/.config/lxsession/LXDE-pi/autostart
+append
+@bash /home/pi/Desktop/kiosk.sh
+
+
+
+
+or install as service
+
+echo $DISPLAY
+sudo nano /lib/systemd/system/kiosk.service
+
+#begin file
+[Unit]
+Description=Chromium Kiosk
+Wants=graphical.target
+After=graphical.target
+
+[Service]
+Environment=DISPLAY=:0.0 #This should be set to the value from echo $DISPLAY command above
+Environment=XAUTHORITY=/home/pi/.Xauthority
+Type=simple
+ExecStart=/bin/bash /home/pi/Desktop/kiosk.sh #Shell Location
+Restart=on-abort
+User=pi
+Group=pi
+
+[Install]
+WantedBy=graphical.target
+#end file
+
+
+sudo systemctl enable kiosk.service
+sudo systemctl start kiosk.service
+
+
+
+sudo systemctl status kiosk.service #show status
+sudo systemctl stop kiosk.service #stop service from command line
+sudo systemctl disable kiosk.service #disable service to not run until re-enabled
