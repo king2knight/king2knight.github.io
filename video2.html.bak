@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>McPherson Basketball</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/carousel.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!--http://ashleydw.github.io/lightbox/#limit-size-->
+	
+
+
+</head>
+<!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar fixed-top">
+	<div class="container">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">McPherson Basketball</a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="boys.html">Boys</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="girls.html">Girls</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="video.html">Video</a>
+        </li>
+      </ul>
+      <!-- Links -->
+    </div>
+    <!-- Collapsible content -->
+	</div>
+  </nav>
+  <!--/.Navbar-->
+
+<body style="background-color:black;">
+<div style ="padding-top:75px;"></div>
+<div class="row">
+<div class="row justify-content-center">
+<div class="card mb-4" style="max-width: 940px; ">
+  <div class="row no-gutters">
+    <div class="col-md-7">
+      <img src="images/oilgold.png" class="card-img" alt="...">
+    </div>
+    <div class="col-md-5">
+      <div class="card-body" style="text-align: center">
+        <h5 class="card-title">Oil & Gold</h5>
+        <p class="card-text">McPherson Globe Refiners Baskebtall Story</p><p><a class='btn btn-primary' href="oil.html" role="button" align="center"<h3>Watch Now</h3></a></p>
+        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+<div class="card mb-4" style="max-width: 940px;">
+  <div class="row no-gutters">
+    <div class="col-md-7">
+      <img src="images/rules.png" class="card-img" alt="...">
+    </div>
+    <div class="col-md-5">
+      <div class="card-body" style="text-align: center">
+        <h5 class="card-title">Basketball Rules Film</h5>
+        <p class="card-text">A Clasic Basketball Rules Film</p><p><a class='btn btn-primary' href="rules.html" role="button" align="center"<h3>Watch Now</h3></a></p>
+        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+<div class="card mb-4" style="max-width: 940px;">
+  <div class="row no-gutters">
+    <div class="col-md-7">
+      <img src="images/2019vNewton.png" class="card-img" alt="...">
+    </div>
+    <div class="col-md-5">
+      <div class="card-body" style="text-align: center">
+        <h5 class="card-title">2019 Sub-State v Newton</h5>
+        <p class="card-text">Watch as the Bullpups take on Newton in Sub-State play as the game goes into overtime!</p><p><a class='btn btn-primary' href="2019vNewton.html" role="button" align="center"<h3>Watch Now</h3></a></p>
+        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>  
+  </html>
