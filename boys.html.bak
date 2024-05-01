@@ -588,7 +588,7 @@
                               </div>
 							  <div class="row">
                                  <div class="col">
-                                    <a class='btn btn-primary btn-block' href="Boys\MHS Boys Opponents_ Series Histories\MHS vs Lindsborg (SV) Series.html" role="button">MHS vs Lindsborg Series</a>
+                                    <a class='btn btn-primary btn-block' href="Boys\MHS Boys Opponents_ Series Histories\MHS vs Lindsborg (SV) History.html" role="button">MHS vs Lindsborg Series</a>
                                  </div>
                                  <div class="col">
                                     <button class="btn btn-primary " type="button" data-toggle="collapse" data-target="#Lindsborg" aria-expanded="false" aria-controls="Lindsborg">Show Graph</button>
@@ -912,7 +912,7 @@
                            <a class='btn btn-primary' href="Boys\MHS Boys Scoring Stats\Top Games for Team Scoring.html" role="button">Top Games for Team Scoring</a>
                            <a class='btn btn-primary' href="Boys\MHS Boys Scoring Stats\Top  Home Games for Team Scoring.html" role="button">Top Home Game Records</a>
                            <a class='btn btn-primary' href="Boys\MHS Boys Scoring Stats\Top Away Games for Team Scoring.html" role="button">Top Away Games for Team</a>
-                           <a class='btn btn-primary' href="Boys\MHS Boys Scoring Stats\MHS Boys All Time Career Scoring Leaders.html" role="button">All Time Career Scoring Leaders</a>
+                           <--<a class='btn btn-primary' href="Boys\MHS Boys Scoring Stats\MHS Boys All Time Career Scoring Leaders.html" role="button">All Time Career Scoring Leaders</a>--/>
                         </div>
                      </div>
                   </div>
