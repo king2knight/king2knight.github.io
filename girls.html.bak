@@ -578,6 +578,19 @@
                                  </a>
                               </div>
                            </div>
+						   <div class="row">
+                              <div class="col">
+                                 <a class='btn btn-primary btn-block' href="Girls\MHS Girls Opponents Series Histories\MHS Girls vs Mulvane Series History.html">MHS vs Mulvane Series</a>
+                              </div>
+                              <div class="col">
+                                 <button class="btn btn-primary " type="button" data-toggle="collapse" data-target="#Mulvane" aria-expanded="false" aria-controls="Mulvane">Show Graph</button>
+                              </div>
+                              <div class="collapse" id="Mulvane">
+                                 <a href="Girls\Girls Opponents in Harvard Graphics\Girls-Mulvane.png" data-toggle="lightbox">
+                                 <img class="img-fluid rounded mb-3 mb-md-0 px-md-5" src="Girls\Girls Opponents in Harvard Graphics\Girls-Mulvane.png" alt="">
+                                 </a>
+                              </div>
+                           </div>
                            <div class="row">
                               <div class="col">
                                  <a class='btn btn-primary btn-block' href="Girls\MHS Girls Opponents Series Histories\MHS Girls vs Newton Series History.html">MHS vs Newton Series</a>
