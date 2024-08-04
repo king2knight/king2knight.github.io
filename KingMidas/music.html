@@ -5,51 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Gallery</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card-img-top {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .mt-7 {
+      margin-top: 4rem;
+    }
+  </style>
 </head>
 
+<body style="background-color:black;">
 <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar fixed-top">
-	<div class="container">
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">King Midas</a>
+    <div class="container">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">King Midas</a>
 
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
 
-      <!-- Links -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
               <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="King Midas Band Members.html">Meet The Band</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="music.html">Music</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="video.html">Video</a>
-        </li>
-      </ul>
-      <!-- Links -->
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="King Midas Band Members.html">Meet The Band</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="music.html">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="video.html">Video</a>
+          </li>
+        </ul>
+        <!-- Links -->
+      </div>
+      <!-- Collapsible content -->
     </div>
-    <!-- Collapsible content -->
-	</div>
   </nav>
   <!--/.Navbar-->
-<body>
 
-  <div class="container mt-5">
+  <div class="container mt-7">
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
+          <img src="images/tramp.webp" class="card-img-top" alt="Tramp">
           <div class="card-body">
             <h5 class="card-title">Tramp</h5>
             <audio controls class="w-100">
@@ -61,6 +72,7 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
+          <img src="images/MellowMoonlight.webp" class="card-img-top" alt="Mellow Moonlight">
           <div class="card-body">
             <h5 class="card-title">Mellow Moonlight</h5>
             <audio controls class="w-100">
@@ -72,6 +84,7 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
+          <img src="images/getdownwithit.webp" class="card-img-top" alt="Get Down With It">
           <div class="card-body">
             <h5 class="card-title">Get Down With It</h5>
             <audio controls class="w-100">
@@ -85,6 +98,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
+          <img src="images/beavershot69.webp" class="card-img-top" alt="Beaver Shot 69">
           <div class="card-body">
             <h5 class="card-title">Beaver Shot 69</h5>
             <audio controls class="w-100">
@@ -96,6 +110,7 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
+          <img src="images/cdcover.webp" class="card-img-top" alt="Louie Louie">
           <div class="card-body">
             <h5 class="card-title">Louie Louie</h5>
             <audio controls class="w-100">
@@ -107,6 +122,7 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
+          <img src="images/cdcover.webp" class="card-img-top" alt="New Orleans">
           <div class="card-body">
             <h5 class="card-title">New Orleans</h5>
             <audio controls class="w-100">
@@ -122,5 +138,15 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    document.addEventListener('play', function(e){
+      var audios = document.getElementsByTagName('audio');
+      for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+          audios[i].pause();
+        }
+      }
+    }, true);
+  </script>
 </body>
 </html>

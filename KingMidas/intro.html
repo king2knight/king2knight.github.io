@@ -5,77 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Player</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
-
-<!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar fixed-top">
-	<div class="container">
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">King Midas</a>
-
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
-
-      <!-- Links -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home
-              <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="King Midas Band Members.html">Meet The Band</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="music.html">Music</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="video.html">Video</a>
-        </li>
-      </ul>
-      <!-- Links -->
-    </div>
-    <!-- Collapsible content -->
-	</div>
-  </nav>
-  <!--/.Navbar-->
-  
-  
 <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">King Midas</a>
 
-<div class="container mt-5">
-    <h1>Band Members Introduction</h1>
-    <div class="row">
-        <div class="col-md-8">
-            <video id="videoPlayer" controls>
-                <source src="video/Band Member Introductions.MTS" type="video/mts">
-                Your browser does not support the video tag.
-            </video>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="King Midas Band Members.html">Meet The Band</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music.html">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="video.html">Video</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+            </div>
         </div>
-        <!--<div class="col-md-4">
-            <h4>Bookmarks</h4>
-            <button class="btn btn-primary" onclick="jumpToBookmark(83)">Bookmark at 1:23</button>
-            <button class="btn btn-primary" onclick="jumpToBookmark(342)">Bookmark at 5:42</button>
-        </div>-->
-    </div>
-</div>
+    </nav>
+    <!--/.Navbar-->
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script>
-    // Get references to the video element and bookmarks
-    const video = document.getElementById("videoPlayer");
-    
-    // Function to jump to a specific time in the video (in seconds)
-    function jumpToBookmark(timeInSeconds) {
-        video.currentTime = timeInSeconds;
-    }
-</script>
+    <div class="container mt-5 pt-5">
+        <h1>Introducing the Band</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <video id="videoPlayer" controls>
+                    <source src="video/Band Member Introductions.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Get references to the video element and bookmarks
+        const video = document.getElementById("videoPlayer");
+
+        // Function to jump to a specific time in the video (in seconds)
+        function jumpToBookmark(timeInSeconds) {
+            video.currentTime = timeInSeconds;
+        }
+    </script>
 </body>
 </html>
