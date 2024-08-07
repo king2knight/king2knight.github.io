@@ -7,8 +7,9 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .card-img-top {
-      width: 100%;
-      height: 200px;
+      width: 100%;   
+	  height: 300px;
+	  background-size: cover;
       object-fit: cover;
     }
     .mt-7 {
@@ -60,7 +61,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="images/tramp.webp" class="card-img-top" alt="Tramp">
+          <img src="images/tramp.png	" class="card-img-top" alt="Tramp">
           <div class="card-body">
             <h5 class="card-title">Tramp</h5>
             <audio controls class="w-100">
@@ -72,7 +73,7 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="images/MellowMoonlight.webp" class="card-img-top" alt="Mellow Moonlight">
+          <img src="images/MellowMoonlight.png" class="card-img-top" alt="Mellow Moonlight">
           <div class="card-body">
             <h5 class="card-title">Mellow Moonlight</h5>
             <audio controls class="w-100">
@@ -84,7 +85,7 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="images/getdownwithit.webp" class="card-img-top" alt="Get Down With It">
+          <img src="images/Get Down With It.png" class="card-img-top" alt="Get Down With It">
           <div class="card-body">
             <h5 class="card-title">Get Down With It</h5>
             <audio controls class="w-100">
@@ -98,7 +99,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="images/beavershot69.webp" class="card-img-top" alt="Beaver Shot 69">
+          <img src="images/sadim.png" class="card-img-top" alt="Beaver Shot 69">
           <div class="card-body">
             <h5 class="card-title">Beaver Shot 69</h5>
             <audio controls class="w-100">
@@ -110,7 +111,7 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="images/cdcover.webp" class="card-img-top" alt="Louie Louie">
+          <img src="images/Louie, Louie.png" class="card-img-top" alt="Louie Louie">
           <div class="card-body">
             <h5 class="card-title">Louie Louie</h5>
             <audio controls class="w-100">
@@ -122,13 +123,118 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="images/cdcover.webp" class="card-img-top" alt="New Orleans">
+          <img src="images/New Orlean.png" class="card-img-top" alt="New Orleans">
           <div class="card-body">
             <h5 class="card-title">New Orleans</h5>
             <audio controls class="w-100">
               <source src="music/06 King Midas - New Orleans .mp3" type="audio/mp3">
               Your browser does not support the audio element.
             </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-md-12">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">CD Track List</h5>
+            <table class="table table-dark table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Song Name</th>
+                  <th scope="col">Duration</th>
+                  <th scope="col">Play</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>A Girl Like You</td>
+                  <td>2:50</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/01 A Girl Like You.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Desperado</td>
+                  <td>3:25</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/02 Desperado.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Turn Back the Hands of Time</td>
+                  <td>2:44</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/03 Turn Back the Hands of Time.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Jump, Jive, and Wail</td>
+                  <td>4:00</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/04 Jump, Jive, and Wail.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>You’ve Lost That Lovin’ Feelin’</td>
+                  <td>3:52</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/05 You’ve Lost That Lovin’ Feelin’.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Mercy, Mercy, Mercy</td>
+                  <td>3:13</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/06 Mercy, Mercy, Mercy.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>Minnie the Moocher</td>
+                  <td>3:13</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/07 Minnie the Moocher.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>Soul Medley (Hold On I’m Coming, Knock on Wood,Midnight Hour, Mustang Sally)</td>
+                  <td>8:33</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/08 Soul Medley.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>Tramp (Now)</td>
+                  <td>3:44</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/09 Tramp (Now).mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>Beaver Shot 69</td>
+                  <td>2:30</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/10 Beaver Shot 69.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">11</th>
+                  <td>Get Down With It</td>
+                  <td>2:42</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/11 Get Down With It.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">12</th>
+                  <td>Mellow Moonlight</td>
+                  <td>2:50</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/12 Mellow Moonlight.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">13</th>
+                  <td>Tell Daddy</td>
+                  <td>2:09</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/13 Tell Daddy.mp3')">Play</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">14</th>
+                  <td>Tramp (Then)</td>
+                  <td>3:21</td>
+                  <td><button class="btn btn-primary" onclick="playSong('music/14 Tramp (Then).mp3')">Play</button></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

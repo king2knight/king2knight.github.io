@@ -23,7 +23,9 @@
     .view {
       height: 100%;
     }
-
+	.carousel-caption {
+    text-align: left;
+	}
     /* Carousel*/
     .carousel,
     .carousel-item,
