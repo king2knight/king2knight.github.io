@@ -1,0 +1,18 @@
+No sound issue
+Add the following to /boot/config.txt and restart the system.
+
+hdmi_group=1
+hdmi_drive=2
+hdmi_mode=16 
+
+No autostart
+/etc/xdg/autostart/kiosk.desktop is missing a leading [
+
+RealVNC server not working yet
+Doesn't run 64bit/Bookwork for Raspberry Pi connect beta
+
+pi crontab 
+0 11 * * * cd /home/pi/site/king2knight.github.io && git pull
+
+root crontab
+45 4 * * * /usr/sbin/shutdown -h now

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=kiosk
+Comment=Start kiosk
+NoDisplay=false
+Exec=/home/pi/Desktop/kiosk.sh

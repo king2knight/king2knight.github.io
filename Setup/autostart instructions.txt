@@ -4,7 +4,7 @@ append
 
 /etc/xdg/autostart/kiosk.desktop
 
-Desktop Entry]
+[Desktop Entry]
 Type=Application
 Name=kiosk
 Comment=Start kiosk
@@ -15,6 +15,7 @@ Exec=/home/pi/Desktop/kiosk.sh
 
 
 or install as service
+#Not working properly - need to investigate
 
 echo $DISPLAY
 sudo nano /lib/systemd/system/kiosk.service
